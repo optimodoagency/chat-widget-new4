@@ -302,8 +302,8 @@
             }
         },
         style: {
-            primaryColor: '',
-            secondaryColor: '',
+            primaryColor: '#854fff',
+            secondaryColor: '#6b3fd4',
             position: 'right',
             backgroundColor: '#ffffff',
             fontColor: '#333333'
@@ -454,7 +454,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify(messageData)
             });
             
             const data = await response.json();
